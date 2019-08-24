@@ -1,7 +1,6 @@
 steps:
 - name: 'gcr.io/cloud-builders/mvn'
   entrypoint: 'bash'
-  #script: cd forecastweatherapi-recommended/src/gateway/forecastweatherapi
   args: ['-c', 'mvn install -Pprod -Dusername=maheshdevops88@gmail.com -Dpassword=Mahesh@123']
   dir: 'HelloWorld'
   #secretEnv: ['PASSWORD']
